@@ -25,4 +25,3 @@ if c <= r_circle:
     print('Да')
 else:
     print('Нет')
-    
