@@ -1,5 +1,6 @@
-x = int(input())
+# "Воздушные шарики" #
 
+x = int(input())
 result = False
 
 if x >= 8:
