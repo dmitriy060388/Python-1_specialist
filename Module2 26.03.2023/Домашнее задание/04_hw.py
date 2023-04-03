@@ -12,4 +12,3 @@ if result:
     print('Да')
 else:
     print('Нет')
-    

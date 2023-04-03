@@ -15,4 +15,3 @@ if color1 == color2:
     print("Yes")
 else:
     print("No")
-    
