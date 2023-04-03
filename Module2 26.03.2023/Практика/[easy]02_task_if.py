@@ -19,4 +19,3 @@ if rubles >= product_price:
     print("Количество оставшихся денег после покупки:", rubles - product_price)
 else:
     print('"Денег недостаточно"')
-    

@@ -14,4 +14,3 @@ if 99 < x <= 999:
     print('Да')
 else:
     print('Нет')
-    
