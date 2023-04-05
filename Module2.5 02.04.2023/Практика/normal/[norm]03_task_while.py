@@ -13,3 +13,14 @@
 
 Формат выходных данных
 Вывести сумму чисел написанных на кирпичах"""
+
+n = int(input())
+total_sum = 0
+
+for i in range(1, n+1):
+    row_sum = 0
+    for j in range(1, i+1):
+        row_sum += i
+    total_sum += row_sum
+
+print(total_sum)
