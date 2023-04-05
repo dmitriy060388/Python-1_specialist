@@ -9,3 +9,11 @@
 
 Формат выходных данных
 Вывести количество положительных."""
+
+n = int(input())
+positive_numbers = 0
+
+while n != "стоп":
+    positive_numbers += 1
+    n = input()
+print(positive_numbers)
