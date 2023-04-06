@@ -22,6 +22,3 @@ while i < len(text):
         current_length = 0
     i += 1
 print(count_of_words5)
-
-
-

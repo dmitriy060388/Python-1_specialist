@@ -7,3 +7,11 @@
 
 Формат выходных данных
 Вывести количество гласных букв."""
+
+text = "В теории, теория и практика неразделимы. На практике это не так."
+vowels = "ауоыэяюёие"
+count_vowels = 0
+
+for i in text.lower():
+    count_vowels += i in vowels
+    print(i in vowels)
